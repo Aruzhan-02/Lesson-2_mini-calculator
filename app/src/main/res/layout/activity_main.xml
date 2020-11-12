@@ -43,7 +43,8 @@
             android:text="+"
             android:layout_marginRight="10dp"
             android:textSize="25dp"
-            android:backgroundTint="#FF9800"/>
+            android:backgroundTint="#FF9800"
+            android:onClick="BtnPlusClicked"/>
 
         <Button
             android:id="@+id/button_minus"
@@ -54,6 +55,7 @@
             android:layout_marginRight="10dp"
             android:textSize="25dp"
             android:backgroundTint="#FF9800"
+            android:onClick="BtnMinusClicked"
             />
 
         <Button
@@ -64,7 +66,8 @@
             android:text="*"
             android:layout_marginRight="10dp"
             android:textSize="25dp"
-            android:backgroundTint="#FF9800"/>
+            android:backgroundTint="#FF9800"
+            android:onClick="BtnMultiClicked"/>
 
         <Button
             android:id="@+id/button_divide"
@@ -73,7 +76,8 @@
             android:layout_weight="1"
             android:text="/"
             android:textSize="25dp"
-            android:backgroundTint="#FF9800"/>
+            android:backgroundTint="#FF9800"
+            android:onClick="BtnDivideClicked"/>
         </LinearLayout>
 
     <TextView
